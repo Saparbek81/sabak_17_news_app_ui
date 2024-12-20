@@ -18,6 +18,9 @@ class NewCard extends StatelessWidget {
         children: [
           Image.asset(
             newsList[index].image,
+            fit: BoxFit.cover,
+            width: 180,
+            height: 120,
           ),
           Expanded(
             child: Padding(

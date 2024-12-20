@@ -17,7 +17,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        backgroundColor: orangColor,
+        backgroundColor: searchColor,
         appBar: myAppBar(),
         body: ListView.builder(
             itemCount: newsList.length,
